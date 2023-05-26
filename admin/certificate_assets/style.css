@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Cinzel+Decorative&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-print-color-adjust: exact !important;
+}
+
+
+html,body{
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+
+.certificate{
+    max-width: 1170px;
+    height: 100%;
+    background-image: url('./Certificate2.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    margin: 0 auto;    
+    line-height: 25px;
+    letter-spacing: .5px;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Minion Pro Regular';
+    font-size: 16px;
+}
+
+.certificate .content{
+    max-width: 600px;
+    margin: 0 auto;
+    /* padding: 30% 3% 25% 3%; */
+    padding: 38% 0% 27% 0%;
+}
+.certificate .content h3{
+    text-align: center;
+    font-size: 22px;
+    letter-spacing: 1.1px;
+    line-height: 30px;
+    color: #1a5f7d;
+}
+.certificate .content p{
+    line-height: 22px;
+    text-align: justify;
+}
+
+.certificate .rg-loc-date p{
+    display: flex;
+}
+.certificate .rg-loc-date p strong{
+    width: 250px;
+}
+.certificate .rg-loc-date p strong{
+    padding-left: 5px;
+}
+.certificate .grades p strong{
+    padding-left: 5px;
+}
+.certificate .grades p {
+    display: flex;
+}
+.certificate .grades p strong{
+    width: 250px;
+}
+.date-signature{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Cinzel Decorative' cursive;
+}

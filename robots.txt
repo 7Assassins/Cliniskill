@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /payment-holdsomedays.html
+
+sitemap: https://www.CliniSun.com/sitemap.xml
